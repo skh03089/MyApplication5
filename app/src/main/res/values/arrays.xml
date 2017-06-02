@@ -16,7 +16,7 @@
         <item>Hanyang university</item>
     </string-array>
     <string-array name="MON">
-        <item>Select your starting time.</item>
+        <item>MON</item>
         <item>09:00</item>
         <item>10:30</item>
         <item>13:00</item>
@@ -24,7 +24,7 @@
         <item>16:00</item>
     </string-array>
     <string-array name="TUE">
-        <item>Select your starting time.</item>
+        <item>TUE</item>
         <item>09:00</item>
         <item>10:30</item>
         <item>13:00</item>
@@ -32,7 +32,7 @@
         <item>16:00</item>
     </string-array>
     <string-array name="WED">
-        <item>Select your starting time.</item>
+        <item>WED</item>
         <item>09:00</item>
         <item>10:30</item>
         <item>13:00</item>
@@ -40,7 +40,7 @@
         <item>16:00</item>
     </string-array>
     <string-array name="THU">
-        <item>Select your starting time.</item>
+        <item>THU</item>
         <item>09:00</item>
         <item>10:30</item>
         <item>13:00</item>
@@ -48,7 +48,7 @@
         <item>16:00</item>
     </string-array>
     <string-array name="FRI">
-        <item>Select your starting time.</item>
+        <item>FRI</item>
         <item>09:00</item>
         <item>10:30</item>
         <item>13:00</item>
