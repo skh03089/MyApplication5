@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">YA!TA!2</string>
+    <string name="Departure_prompt">Departure</string>
+    <string name="Time_prompt">Time</string>
+    <string name="Destination_prompt">Destination</string>
+    <string name="MON">MON</string>
+    <string name="TUE">TUE</string>
+    <string name="WED">WED</string>
+    <string name="THU">THR</string>
+    <string name="FRI">FRI</string>
+    <string name="title_activity_maps">Main Page</string>
+</resources>
