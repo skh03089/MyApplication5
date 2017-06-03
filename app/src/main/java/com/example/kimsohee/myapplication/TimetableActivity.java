@@ -40,7 +40,7 @@ public class TimetableActivity extends AppCompatActivity {
                 this, R.array.THU, android.R.layout.simple_spinner_item);
         adapter4.setDropDownViewResource(
                 android.R.layout.simple_spinner_dropdown_item);
-        spinner4.setAdapter(adapter3);
+        spinner4.setAdapter(adapter4);
 
         Spinner spinner5 = (Spinner) findViewById(R.id.FRI);
         ArrayAdapter adapter5 = ArrayAdapter.createFromResource(
