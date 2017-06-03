@@ -11,6 +11,7 @@ public class TimetableActivity extends AppCompatActivity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_timetable);
+
         Intent intent = new Intent(this.getIntent());
 
         Spinner spinner1 = (Spinner) findViewById(R.id.MON);
