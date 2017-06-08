@@ -33,15 +33,13 @@ public class ListViewAdapter extends BaseAdapter {
             convertView = inflater.inflate(R.layout.listview_item, parent, false);
         }
 
-        ImageView iconImageView = (ImageView) convertView.findViewById(R.id.imageView1) ;
         TextView titleTextView = (TextView) convertView.findViewById(R.id.textView1) ;
-        TextView descTextView = (TextView) convertView.findViewById(R.id.textView2) ;
+
 
         ListViewItem listViewItem = listViewItemList.get(position);
 
-        iconImageView.setImageDrawable(listViewItem.getIcon());
+
         titleTextView.setText(listViewItem.getTitle());
-        descTextView.setText(listViewItem.getDesc());
 
         return convertView;
     }
@@ -56,12 +54,10 @@ public class ListViewAdapter extends BaseAdapter {
         return listViewItemList.get(position) ;
     }
 
-    public void addItem(Drawable icon, String title, String desc) {
+    public void addItem(String title) {
         ListViewItem item = new ListViewItem();
 
-        item.setIcon(icon);
         item.setTitle(title);
-        item.setDesc(desc);
 
         listViewItemList.add(item);
     }

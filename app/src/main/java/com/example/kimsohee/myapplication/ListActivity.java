@@ -25,16 +25,11 @@ public class ListActivity extends AppCompatActivity {
         listview = (ListView) findViewById(R.id.listview1);
         listview.setAdapter(adapter);
 
-        adapter.addItem(ContextCompat.getDrawable(this, R.drawable.ic_account_circle_black_36dp),
-                "Wangsimini station exit 5", "");
-        adapter.addItem(ContextCompat.getDrawable(this, R.drawable.ic_account_circle_black_36dp),
-                "Majang station exit 1", "");
-        adapter.addItem(ContextCompat.getDrawable(this, R.drawable.ic_account_circle_black_36dp),
-                "Sindap station exit 1", "");
-        adapter.addItem(ContextCompat.getDrawable(this, R.drawable.ic_account_circle_black_36dp),
-                "Hospital of Hanyang university", "");
-        adapter.addItem(ContextCompat.getDrawable(this, R.drawable.ic_account_circle_black_36dp),
-                "The front gate of Hanyang university", "");
+        adapter.addItem("  Wangsimini station exit 5");
+        adapter.addItem("  Majang station exit 1");
+        adapter.addItem("  Sindap station exit 1");
+        adapter.addItem("  Hospital of Hanyang university");
+        adapter.addItem("  The front gate of Hanyang university");
 
         listview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
